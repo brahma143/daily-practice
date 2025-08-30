@@ -22,3 +22,37 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# Java / Build
+target/
+*.jar
+*.war
+*.class
+bin/
+build/
+.gradle/
+.gradle-cache/
+.out/
+
+# Maven/Gradle wrappers
+.mvn/
+!mvnw
+!mvnw.cmd
+gradle/
+!gradlew
+!gradlew.bat
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Node/React
+node_modules/
+dist/
+.build/
+.env
